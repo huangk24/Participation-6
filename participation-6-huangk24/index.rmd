@@ -20,3 +20,23 @@ source("participation-6.R")
 ```{r echo = F}
 carat_price
 ```
+
+## The relationship of cut and price
+```{r echo = F}
+cut_price
+```
+
+## The relationship of color and price
+```{r echo = F}
+color_price
+```
+
+## The relationship of clarity and price
+```{r echo = F}
+clarity_price
+```
+
+## The relationship of cut and clarity
+```{r echo = F}
+cut_clarity
+```
