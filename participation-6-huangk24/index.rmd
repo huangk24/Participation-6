@@ -1,0 +1,22 @@
+---
+title: "Participation-6"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# ggplot graph
+
+This is a document for diamond dataset to see the relationship of each factor's relationship with price. 
+
+```{r include=FALSE}
+library(knitr)
+source("participation-6.R")
+```
+
+## The relationship of carat and price
+```{r echo = F}
+carat_price
+```
